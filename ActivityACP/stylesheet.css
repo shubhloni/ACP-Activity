@@ -1,0 +1,126 @@
+body {
+    background-image: url("black.jpg");
+    margin: 0px;
+    font-family: Tahoma;
+    font-size: 18px;
+}
+
+header {
+    background: #333;
+    color: #FFF;
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 200px;
+    clear: left;
+}
+
+.sidenav a {
+    padding: 8px 8px 15px 33px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.Head_img {
+    background-color: #31373E;
+    margin: 5 10%;
+    margin-top: 100px;
+    height: 200px;  
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    min-width: 400px;
+    clear: both;
+}
+
+#site-title {
+    font-size: 350%;
+    text-align: center;
+    color: #e5e4d7;
+    font-family: "Century Gothic", "Gill Sans", Arial, sans-serif;
+    
+    position: relative;
+    top: -10%;
+}
+
+#sub-title {
+    font-size: 200%;
+    text-align: center;
+    color: #e5e4d7;
+    font-family: "Century Gothic", "Gill Sans", Arial, sans-serif;
+    
+    position: relative;
+    top: -40%;
+}
+
+.Main {
+    background-color: #F9F9F9;
+    margin-top: 1%;
+    margin-left:10%;
+    margin-right: 37%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    height: auto;
+    min-height: 810px;
+    padding: 60px;
+    min-width: 270px;
+}
+
+.Sidebar {
+    background-color: #F9F9F9;
+    margin: 0.5%;
+    margin-right: 10%;
+    margin-top: 0.8%;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 105%;
+    float: right;
+    width: 350px;
+    clear: right;
+}
+
+footer {
+    background-color: #333;
+    height: 10%;
+    border-top: 3px solid;
+    margin: 0 0;
+    border-radius: 5px;
+    clear: both;
+    color: #efe5d0;
+    text-align: center;
+    padding: 15px;
+    font-size: 100%;
+}

@@ -1,0 +1,181 @@
+body {
+    background-image: url("black.jpg");
+    margin: 0px;
+    font-family: Tahoma;
+    font-size: 18px;
+}
+
+header {
+    background: #333;
+    color: #FFF;
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 200px;
+    clear: left;
+}
+
+.sidenav a {
+    padding: 8px 8px 15px 33px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.Head_img {
+    background-color: #31373E;
+    margin: 5 10%;
+    margin-top: 100px;
+    height: 200px;  
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    min-width: 400px;
+    clear: both;
+}
+
+#site-title {
+    font-size: 350%;
+    text-align: center;
+    color: #e5e4d7;
+    font-family: "Century Gothic", "Gill Sans", Arial, sans-serif;
+    
+    position: relative;
+    top: -10%;
+}
+
+#sub-title {
+    font-size: 200%;
+    text-align: center;
+    color: #e5e4d7;
+    font-family: "Century Gothic", "Gill Sans", Arial, sans-serif;
+    
+    position: relative;
+    top: -40%;
+}
+
+.Main {
+    background-color: #F9F9F9;
+    margin-top: 1%;
+    margin-left:10%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    height: auto;
+    min-height: 300px;
+    padding: 60px;
+    min-width: 400px;
+}
+
+footer {
+    background-color: #333;
+    height: 10%;
+    border-top: 3px solid;
+    margin: 0 0;
+    border-radius: 5px;
+    clear: both;
+    color: #efe5d0;
+    text-align: center;
+    padding: 15px;
+    font-size: 100%;
+}
+
+.container {
+    max-width:400px;
+    width:100%;
+    margin:0 auto;
+    position:relative;
+}
+
+#contact h3 {
+    color: #F96;
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#contact h4 {
+    margin:5px 0 15px;
+    display:block;
+    font-size:13px;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+    width:100%;
+    border:1px solid #CCC;
+    background:#FFF;
+    margin:0 0 5px;
+    padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+    border:1px solid #AAA;
+}
+
+#contact textarea {
+    height:100px;
+    max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+    cursor:pointer;
+    width:100%;
+    border:none;
+    background:#0CF;
+    color:#FFF;
+    margin:0 0 5px;
+    padding:10px;
+    font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+    background:#09C;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+    outline:0;
+    border:1px solid #999;
+}

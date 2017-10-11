@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>The Tech Dude</title>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+        <script src="jscript.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; the technology blog!</span>
+
+            <script>
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                }
+
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                }
+            </script>
+
+        </header>
+        <main>
+            <div class="Head_img">
+                <h3 id="site-title">The Tech Dude</h3>
+                <h4 id="sub-title">technology & you!</h4>
+            </div>
+            <div class="sidebar">
+                <h3>How do Packet Sniffers Work?</h3>
+                <p> They can also capture information such as passwords and authentication tokens (if they are sent in the clear). Hackers can also capture packets for later playback in replay, man-in-the-middle, and packet injection attacks that some systems may be vulnerable to.</p>
+            </div>
+            <div class="sidebar">
+                <h3>How do Packet Sniffers Work?</h3>
+                <p> They can also capture information such as passwords and authentication tokens (if they are sent in the clear). Hackers can also capture packets for later playback in replay, man-in-the-middle, and packet injection attacks that some systems may be vulnerable to.</p>
+            </div>
+            <div class="sidebar">
+                <h3>How do Packet Sniffers Work?</h3>
+                <p> They can also capture information such as passwords and authentication tokens (if they are sent in the clear). Hackers can also capture packets for later playback in replay, man-in-the-middle, and packet injection attacks that some systems may be vulnerable to.</p>
+            </div>
+            <div class="Main">
+                <h1>How do Packet Sniffers Work?</h1> 
+                <p>Packet sniffers work by intercepting and logging network traffic that they can 'see' via the wired or wireless network interface that the packet sniffing software has access to on its host computer. On a wired network, what can be captured depends on the structure of the network. A packet sniffer might be able to see traffic on an entire network or only a certain segment of it, depending on how the network switches are configured, placed, etc. On wireless networks, packet sniffers can usually only capture one channel at a time unless the host computer has multiple wireless interfaces that allow for multichannel capture. Once the raw packet data is captured, the packet sniffing software must analyze it and present it in human-readable form so that the person using the packet sniffing oftware can make sense of it. The person analyzing the data can view details of the 'conversation' happening between two or more nodes on the network. Network technicians can use this information to determine where a fault lies, such as determining which device failed to respond to a network request. Hackers can use sniffers to eavesdrop on unencrypted data in the packets to see what information is being exchanged between two parties. They can also capture information such as passwords and authentication tokens (if they are sent in the clear). Hackers can also capture packets for later playback in replay, man-in-the-middle, and packet injection attacks that some systems may be vulnerable to. When we are sniffing packets, the network driver also sends a copy of each received packet to the packet filter. To sniff packets, we will use libpcap, an open source library.</p>
+
+            </div>
+        </main>
+        <footer>
+            &copy; 2016 dtechdude.com All Rights Reserved.       
+        </footer>
+    </body>
+</html>
